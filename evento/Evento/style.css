@@ -37,7 +37,7 @@
     color: rgb(177, 0, 177);
     transition: .3s;
 }
-.hero button{
+.cadas button{
     border: none;
     background: rgb(177, 0, 177);
     padding: 12px 30px;
@@ -47,13 +47,29 @@
     font-size: 15px;
     transition: .4s;
 }
-.hero button:hover{
+.cadas button:hover{
     transform: scale(1.3);
     cursor: pointer;
 }
 /* Home do site */
 .explorar{
-position: absolute; 
-top: 50%;
-left: 47%;
+    position: absolute; top: 50%; left: 45%;
+}
+.explorar {
+    border:solid 5px white;
+    background: none;
+    padding: 12px 30px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.explorar:hover{
+   background-color: white;
+   color: black;
+   transform:scale(1.15);
+    cursor: pointer;
 }
